@@ -1,0 +1,16 @@
+{
+  "name": "corp-website-lab",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Deliberately vulnerable corp-website training lab (react2shell / CVE-2025-55182 vuln class recreation) for authorized VAPT practice.",
+  "scripts": {
+    "dev": "next dev -p 3000",
+    "build": "next build",
+    "start": "next start -p 3000"
+  },
+  "dependencies": {
+    "next": "14.2.15",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  }
+}

@@ -1,0 +1,7 @@
+services:
+  corp-website-lab:
+    build: .
+    container_name: corp-website-lab
+    ports:
+      - "3100:3000"
+    restart: unless-stopped

@@ -1,0 +1,41 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+  background: #f4f6f8;
+  color: #1c2530;
+}
+nav {
+  background: #0b2545;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav .brand { color: #fff; font-weight: 700; font-size: 1.25rem; letter-spacing: .02em; }
+nav a {
+  color: #cdd9e5;
+  text-decoration: none;
+  margin-left: 1.5rem;
+  font-size: .95rem;
+}
+nav a:hover { color: #fff; }
+main { max-width: 960px; margin: 0 auto; padding: 3rem 2rem; }
+h1 { font-size: 2.1rem; margin-bottom: 1rem; color: #0b2545; }
+h2 { font-size: 1.3rem; margin: 1.5rem 0 .75rem; color: #0b2545; }
+p { line-height: 1.6; margin-bottom: 1rem; color: #3a4a5c; }
+.hero {
+  background: linear-gradient(135deg, #0b2545, #134a8a);
+  color: #fff;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+.hero h1 { color: #fff; }
+.hero p { color: #d9e4f0; max-width: 600px; margin: 0 auto 1.5rem; }
+.card-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1.25rem; margin-top: 1.5rem; }
+.card { background: #fff; border-radius: 10px; padding: 1.5rem; box-shadow: 0 1px 4px rgba(0,0,0,.08); }
+.card h3 { color: #0b2545; margin-bottom: .5rem; }
+footer { text-align: center; padding: 2rem; color: #7a8696; font-size: .85rem; }
+form { display: flex; flex-direction: column; gap: .75rem; max-width: 420px; }
+input, textarea { padding: .65rem; border: 1px solid #c3ccd6; border-radius: 6px; font-size: .95rem; }
+button { background: #134a8a; color: #fff; border: none; padding: .7rem 1.2rem; border-radius: 6px; cursor: pointer; font-size: .95rem; }
+button:hover { background: #0b2545; }
