@@ -20,6 +20,15 @@ export default function RootLayout({ children }) {
         </nav>
         {children}
         <footer>&copy; 2026 NexaCorp Solutions. Training lab build — not a real company.</footer>
+        {/*
+          Lab note: this script tag is the ONLY thing that makes
+          /_internal/chunks/fd5f064b2a3f9309.js discoverable by reading the
+          page like a real blackbox tester would — it sits in the page
+          source next to Next.js's own framework chunks, indistinguishable
+          by filename alone. Finding it means downloading every referenced
+          .js file and actually reading them, same as the real recon step.
+        */}
+        <script src="/_internal/chunks/fd5f064b2a3f9309.js" async defer></script>
       </body>
     </html>
   );
